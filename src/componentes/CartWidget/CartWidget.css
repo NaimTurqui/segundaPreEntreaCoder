@@ -1,0 +1,10 @@
+.cart{
+    width: 2rem;
+    background-color: aliceblue;
+}
+strong{
+    background-color: rgb(255, 111, 0);
+    padding: 3px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
