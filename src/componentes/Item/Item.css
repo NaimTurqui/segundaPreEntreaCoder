@@ -19,8 +19,9 @@ h3{
 .detail{
     margin: 0.5rem;
 }
-img{
+.imgCard{
     width: 9rem;
+    height: 9rem;
     border-radius: 1rem;
 
 }

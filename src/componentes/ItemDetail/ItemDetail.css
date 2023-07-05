@@ -1,0 +1,9 @@
+.imgDetail{
+    width: 20rem;
+    height: 20rem;
+}
+.detailContainer{
+    background-color:  rgb(0, 0, 0);
+    padding: 2rem;
+    color: aliceblue;
+}
