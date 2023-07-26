@@ -1,0 +1,28 @@
+.contador{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0rem;
+}
+.boton{
+    background: transparent;
+    border: 0;
+    color: var(--two-color);
+    font-size: 1.2rem;
+}
+.number{
+    background-color: var(--white-color);
+    padding: .2rem .5rem;
+    border-radius: .2rem;
+}
+.botonAgregar{
+    padding: .5rem;
+    border-radius: .2rem;
+    background: var(--white-color);
+    border: 0;
+    color: var(--two-color);
+    font-size: 1.2rem;
+}
+.botonAgregar:hover{
+    background: var(--main-color);
+    color: var(--white-color);
+}

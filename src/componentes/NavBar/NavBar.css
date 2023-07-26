@@ -1,16 +1,42 @@
 header{
-    
+
+    height: 4rem;
+    background-color: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid black;
+    padding: .50rem;
+
+}
+
+a{
+    text-decoration: none;
+    /* color: rgb(255, 255, 255); */
+}
+.cat{
+    color: rgb(255, 255, 255);
+    transition: all .5s;
 }
 li{
+    font-weight: 400;
+    margin: 0rem 1rem;
+    font-size: 1rem;
+    list-style: none;
     display: inline-block;
     margin: 1rem;
     cursor: pointer;
+
+}
+.cat:hover{
+    color: var(--three-color);
+    border-bottom: 1.2px solid var(--three-color);
 }
 
 h1{
-    color: rgb(255, 111, 0);
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.7rem;
+    font-weight: 800;
+    color:var(--three-color);
+    text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.094);
 }

@@ -1,10 +1,19 @@
 .cart{
-    width: 2rem;
+    /* width: 6rem; */
     background-color: aliceblue;
 }
 strong{
-    background-color: rgb(255, 111, 0);
-    padding: 3px;
-    margin-left: 10px;
-    border-radius: 5px;
+    font-size: .9rem; 
+    background-color: var(--three-color);
+    padding: 6px 2px; 
+    margin-left: 7px; 
+    border-radius: 5%; 
+}
+.contenedorCart{
+    display: flex;
+    padding: .5rem;
+}
+.colorIcon{
+    color: aliceblue;
+    font-size: 1.5rem;
 }

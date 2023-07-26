@@ -1,0 +1,53 @@
+a{
+    color: black;
+}
+.detailCompra{
+    background-color:var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+    width: 30%;
+}
+.tituloResumen{
+    border-bottom: 1px solid;
+}
+.valorResumen{
+    /* display: flex; */
+    border-bottom: 1px solid;
+
+}
+.detOne{
+    margin-right: 2rem;
+}
+.cartContent{
+    background-color: var(--white-color);
+
+}
+.btnVaciar{
+    font-size: 1rem;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin: 2rem 0rem 2rem 1rem;
+}
+.btnVaciar:hover{
+background-color: var(--three-color);
+color: var(--main-color);
+}
+.btnCheckout{
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .5rem;
+    background-color: var(--main-color);
+    color: aliceblue;
+    border-radius: .5rem;
+}
+.btnCheckout:hover{
+    background-color: var(--three-color);
+    color: var(--main-color);
+}

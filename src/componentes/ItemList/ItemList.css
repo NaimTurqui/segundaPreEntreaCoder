@@ -1,0 +1,9 @@
+.containCard{
+    /* width: auto; 
+    display: inline-block;  */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: var(--white-color);
+    padding: 0rem .2rem;
+    /* height: 100%; */
+}

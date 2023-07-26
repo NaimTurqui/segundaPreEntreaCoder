@@ -1,12 +1,12 @@
 
 const misProductos=[
-    {id:"1", nombre:"jordan94", precio:900, img:"../img/jordan94.jpeg", idCat: "1"},
-    {id:"2", nombre:"gucci Short", precio:700, img:"../img/gucciShort.jpeg", idCat: "2"},
-    {id:"3", nombre:"ChromeHearts Jean", precio:800, img:"../img/ChromeHeartsJean.jpeg", idCat: "3"},
-    {id:"4", nombre:"air94 Nike", precio:600, img:"../img/nike94.jpeg", idCat: "1"},
-    {id:"5", nombre:"nike Short", precio:200, img:"../img/nikeShort.jpeg", idCat: "2"},
-    {id:"6", nombre:"Custom Jean", precio:450, img:"../img/CustomJean.jpeg", idCat: "3"},
-    {id:"7", nombre:"adidas short", precio:200, img:"../img/adidasShort.jpeg", idCat: "2"}
+    {id:"1", nombre:"jordan94", precio:900, stock:10, img:"../img/jordan94.jpeg", idCat: "1"},
+    {id:"2", nombre:"gucci Short", precio:700, stock:10, img:"../img/gucciShort.jpeg", idCat: "2"},
+    {id:"3", nombre:"ChromeHearts Jean", precio:800, stock:3, img:"../img/ChromeHeartsJean.jpeg", idCat: "3"},
+    {id:"4", nombre:"air94 Nike", precio:600, stock:10, img:"../img/nike94.jpeg", idCat: "1"},
+    {id:"5", nombre:"nike Short", precio:200, stock:10, img:"../img/nikeShort.jpeg", idCat: "2"},
+    {id:"6", nombre:"Custom Jean", precio:450, stock:10, img:"../img/iconNike.png", idCat: "3"},
+    {id:"7", nombre:"adidas short", precio:200, stock:10, img:"../img/snk-two.jpeg", idCat: "2"}
 ]
 
 export const getProductos = () => {
